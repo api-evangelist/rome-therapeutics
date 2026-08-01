@@ -1,7 +1,28 @@
 aid: rome-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rome-therapeutics.png
 name: Rome Therapeutics
-description: Rome Therapeutics is a company surfaced as a portfolio company of a16z, gv and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rome Therapeutics is a Cambridge, Massachusetts biotechnology company developing
+  therapies that target the "repeatome" — the vast repetitive, non-coding regions of
+  the human genome (the "dark genome," including LINE-1 and other transposable elements)
+  implicated in cancer and autoimmune disease. Its discovery engine pairs ROMEMap, a
+  proprietary high-resolution database of annotated functional repeats, with ROMEQuant,
+  a machine-learning method for quantifying repeat expression and prioritizing targets
+  and biomarkers. Backed by a16z and GV, the company raised a $77M Series B (2021) plus
+  a $72M Series B extension to advance its lead program into clinical development. These
+  are internal research/data-science tools; the company publishes no public developer or
+  web API. This profile was surfaced as a VC portfolio lead and enriched by the pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/rome-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Genomics
+- Drug Discovery
+- Oncology
+- Autoimmune
+- Life Sciences
+- Repeatome
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rome-therapeutics-domain-security.yml
 - type: Website
-  url: http://rometx.com
+  url: https://rometx.com
+- type: Blog
+  url: https://rometx.com/press-releases/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
